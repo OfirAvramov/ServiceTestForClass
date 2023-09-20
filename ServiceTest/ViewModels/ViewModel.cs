@@ -16,5 +16,7 @@ namespace ServiceTest.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));  
         }
+
+       
     }
 }
